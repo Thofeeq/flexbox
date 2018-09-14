@@ -1,0 +1,119 @@
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+a{
+  color:rgb(48, 199, 34);
+}
+.container{
+  margin: 0;
+  display: flex;
+  width:100%;
+  height:100vh;
+  background-color:lightgray;
+  flex-direction: row;
+}
+
+.container .left-index{
+  display:flex;
+  width:50%;
+  background-color:rgb(48, 199, 34); 
+  height:100%;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+
+.features-box{
+  display: flex;
+  width:600px;
+  height:200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hidden{
+  display: none;
+}
+.features-box img{
+  width:64px;
+  height: 64px;
+}
+
+.f-create-poll{
+  display: flex;
+  width:100%;
+  height:50%;
+  justify-content: space-between;
+}
+
+
+
+.f-create-poll img {
+  margin-top:10px;
+}
+
+.f-invite-friends{
+  display: flex;
+  width:100%;
+  height:50%;
+  justify-content: space-between;
+}
+
+
+
+.f-invite-friends img {
+  margin-top: 10px;
+}
+
+.features-box p {
+  font-size: 26px;
+  color:white;
+  font-weight: bold;
+  align-self:baseline;
+}
+
+.container .right-index{
+  display:flex;
+  width:50%;
+  background-color: white;
+  height:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-form{
+  display: flex;
+  flex-direction: column; 
+  width:30%;
+  justify-content: space-between;
+  height:250px;
+}
+#login-form textarea{
+  border-radius: 5px;
+  resize: none;
+}
+
+#login-form button{
+  width: 33%;
+  align-self: center;
+  border-radius: 10px;
+}
+#login-form p{
+  text-align: center;
+}
+
+#btn-login{
+  color:rgb(48, 199, 34);
+  background: transparent;
+  height:50px;
+}
+
+#btn-register{
+  color:white;
+  background:rgb(48, 199, 34);
+  height:50px;
+}
+  
+
